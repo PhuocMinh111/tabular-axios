@@ -1,0 +1,16 @@
+#title {
+    min-height: 100vh;
+    .about {
+        font-size: $fs-2;
+        color: $color-primary;
+    }
+    .big-title {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+}
+@include responsive("large"){
+    #title{
+        padding:.8rem 3rem;
+    }
+}

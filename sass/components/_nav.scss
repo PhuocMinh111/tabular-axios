@@ -1,0 +1,25 @@
+.nav {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  max-height: 10vh;
+  display: flex;
+  left: 0;
+  .navbar-nav {
+    margin-top: 10px;
+    // display: absolute;
+
+    .nav-link {
+      color: $color-dark-4;
+      margin: 0 10px;
+      font-weight: 500;
+      font-size: $fs-1;
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+  #social {
+    max-width: 150px;
+  }
+}

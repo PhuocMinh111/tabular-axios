@@ -1,0 +1,12 @@
+footer {
+  .footer-hero {
+    position: relative;
+    z-index: -100;
+    height: 80vh;
+    background: $color-primary;
+    &::after {
+      @include after();
+      background: url("../../img/Wave_White_bottom_right_shape_01.png");
+    }
+  }
+}

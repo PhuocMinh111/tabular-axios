@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  // @include styleText($fs-1,$fw-1,$color-dark-1);
+}
+
+.section {
+  padding: $pd-5 0;
+}
+
+.section-title {
+  margin-bottom: $mg-3;
+  text-align: center;
+  // @include styleText($fs-6,$fw-3,$color-blue-1);
+  letter-spacing: $ls-1;
+}
+// @include responsive("large") {
+//     .container-fluid {
+//         padding:1rem 2rem;
+//     }
+// }
+img {
+  width: 100%;
+}
+.btn {
+  background: $color-primary;
+  border: none;
+  border-radius: 16px;
+  padding: 0.5rem 1rem;
+  color: white !important;
+  &:hover {
+    background: $color-white-2;
+    color: $color-dark-2;
+  }
+}

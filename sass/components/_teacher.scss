@@ -1,0 +1,16 @@
+#our-teach {
+    .card {
+        border-radius: 8px;
+        padding:10px;
+        border: none;
+        .country {
+            text-transform: capitalize;
+            color:$color-primary;
+        }
+        .author-name {
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+    }
+    
+}

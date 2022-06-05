@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@0,300;0,900;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section-title {
+  margin-bottom: 70px;
+  text-align: center;
+  letter-spacing: 0.015rem;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  background: #C24094;
+  border: none;
+  border-radius: 16px;
+  padding: 0.5rem 1rem;
+  color: white !important;
+}
+
+.btn:hover {
+  background: #e2ebfc;
+  color: #121212;
+}
+
+.nav {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  max-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+}
+
+.nav .navbar-nav {
+  margin-top: 10px;
+}
+
+.nav .navbar-nav .nav-link {
+  color: #212121;
+  margin: 0 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav .navbar-nav .nav-link:hover {
+  color: #C24094;
+}
+
+.nav #social {
+  max-width: 150px;
+}
+
+#title {
+  min-height: 100vh;
+}
+
+#title .about {
+  font-size: 1.1rem;
+  color: #C24094;
+}
+
+#title .big-title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 992px) {
+  #title {
+    padding: .8rem 3rem;
+  }
+}
+
+.hero {
+  position: absolute;
+  max-width: 100vw;
+  min-height: 200vh;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+}
+
+.hero .hero-1 {
+  max-width: 60%;
+}
+
+.hero .hero-2 {
+  max-width: 100vw;
+  position: relative;
+  overflow: hidden;
+  margin-top: 5rem;
+  top: 70vh;
+}
+
+.hero .hero-2 img {
+  width: 150%;
+}
+
+.hero .hero-2 #rotate {
+  position: relative;
+  top: 50%;
+  background-color: #DCD0F0;
+}
+
+.hero .hero-2 #rotate::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  z-index: -1000;
+}
+
+.hero .hero-2 #rotate img {
+  position: relative;
+  top: 50%;
+}
+
+#our-teach .card {
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+}
+
+#our-teach .card .country {
+  text-transform: capitalize;
+  color: #C24094;
+}
+
+#our-teach .card .author-name {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+footer .footer-hero {
+  position: relative;
+  z-index: -100;
+  height: 80vh;
+  background: #C24094;
+}
+
+footer .footer-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../img/Wave_White_bottom_right_shape_01.png");
+}
+
+#btn-edit {
+  background: #C24094;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

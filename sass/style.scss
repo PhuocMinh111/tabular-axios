@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@0,300;0,900;1,300&display=swap");
+@import "./helpers/_variables";
+@import "./base/_boiler";
+@import "./helpers/_mixin";
+
+// components;
+@import "./components/_nav";
+@import "./components/_title";
+@import "./components/_hero";
+@import "./components/_teacher";
+@import "./components/_footer";
+
+#btn-edit {
+  background: $color-primary;
+  border: none;
+}
